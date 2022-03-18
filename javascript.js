@@ -11,7 +11,7 @@ let mecmec = document.getElementsByClassName("resultado");
      var calculando = input1 * input2; 
 
 if(input1 == "" && input2 == ""){
-    mecmec[0].innerHTML = ("Por favor coloque algum número")
+    mecmec[0].innerHTML = ("Please, put you number.")
 }
 else{
     mecmec[0].innerHTML = (calculando)
@@ -30,7 +30,7 @@ function subtraction(){
          var calculando = input3 - input4; 
     
     if(input3 == "" && input4 == ""){
-        mecmec[0].innerHTML = ("Please, get number.")
+        mecmec[0].innerHTML = ("Please, put you number.")
     }
     else{
         mecmec[0].innerHTML = (calculando)
@@ -53,7 +53,7 @@ function subtraction(){
              var calculando = input5 + input6; 
         
         if(input5 == "" && input6 == ""){
-            mecmec[0].innerHTML = ("Por favor coloque algum número")
+            mecmec[0].innerHTML = ("Please, put you number.")
         }
         else{
             mecmec[0].innerHTML = (calculando)
@@ -72,7 +72,7 @@ function subtraction(){
                  var calculando = input7 / input8; 
             
             if(input7 == "" && input8 == ""){
-                mecmec[0].innerHTML = ("Por favor coloque algum número")
+                mecmec[0].innerHTML = ("Please, put you number.")
             }
             else{
                 mecmec[0].innerHTML = (calculando)
