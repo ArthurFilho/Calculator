@@ -20,12 +20,13 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-.resultado{
+.resultado, .resultado1, .resultado3, .resultado2{
     border-radius: 5px;
 border: 1px solid gray;
 background-color: white;
-width: 100px;
+width: 170px;
 height: 20px;
+padding: 10px;
 }
 .layout{
     padding: 15px;
